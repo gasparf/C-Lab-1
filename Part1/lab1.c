@@ -51,7 +51,7 @@ void part1() {
   // output to the console. It will interpret stored bits
   // based on the format specifiers you provide it:
   //  - http://www.cplusplus.com/reference/cstdio/printf/
-  printf("x = %i\ny = %i\n", x, y);
+  printf("x = %i\n y = %i\n", x, y);
 
   // The following line creates integer pointers p and q
   // and stores the addresses of x and y, respectively,
@@ -62,7 +62,7 @@ void part1() {
   // Q1: The following line is an example. Feel free to
   // copy and/or modify it as needed for part 1 of this lab.
   printf("x & x = %i\n %x", x & x, &x);
-}
+} 
 
 // HELPER FUNCTION - fillArray()
 //
@@ -183,7 +183,7 @@ void part3() {
   // the condition passes.
   // Order of operations can be confusing, so parentheses
   // generally improve readability.
-
+  
   // assert( student == 8 );
 }
 
